@@ -1,0 +1,18 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^3.0.3",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

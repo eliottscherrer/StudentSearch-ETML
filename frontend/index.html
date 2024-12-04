@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chargement des données Excel</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <div id="app">
+      <h1>Où est l'élève ?</h1>
+      <a href="/src/admin.html">Tableau de Bord Admin</a>
+      <div class="search-container">
+          <input type="text" id="search-prenom" placeholder="Prénom" />
+          <input type="text" id="search-nom" placeholder="Nom" />
+          <button id="search-button">Search</button>
+      </div>
+      <div id="search-results"></div>
+  </div>
+  <script type="module" src="/src/script.js"></script>
+</body>
+</html>

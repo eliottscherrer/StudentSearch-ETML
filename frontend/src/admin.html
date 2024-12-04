@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord Admin</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="admin-app">
+        <a href="../index.html">Revenir au menu</a>
+        <h1>Tableau de Bord Admin</h1>
+        <div class="login-container">
+            <input type="password" id="admin-password" placeholder="Mot de passe" />
+            <button id="admin-login-button">Se connecter</button>
+        </div>
+        <div class="admin-container" style="display: none;">
+            <h2>Gérer les élèves</h2>
+            <input type="file" id="excel-file" />
+            <p id="studentsFound">Nombre d'élèves uniques trouvés: 0</p>
+        </div>
+        <div id="admin-results"></div>
+    </div>
+    <script type="module" src="/src/admin-script.js"></script>
+</body>
+</html>
