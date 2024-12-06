@@ -1,6 +1,6 @@
 # Installation
 
-```
+```bash
 git clone https://github.com/eliottscherrer/StudentSearch-ETML.git
 ```
 
@@ -15,15 +15,15 @@ cd backend
 
 Installez [UWamp](https://www.uwamp.com/fr/?page=download), lancez le serveur MySql depuis celui-ci puis connectez-vous.
 ```bash
-cd 
+cd UwAmp\bin\database\mysql-5.7.11\bin
 mysql -u root -proot
 ```
 
 Ensuite, créez la base de données et la table associée .
-```
-CREATE DATABASE attendance_db;
+```sql
+CREATE DATABASE db_portes_ouvertes_2024_etml;
 
-USE attendance_db;
+USE db_portes_ouvertes_2024_etml;
 
 CREATE TABLE attendance (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -36,7 +36,7 @@ CREATE TABLE attendance (
 ```
 
 ## Frontend
-```
+```bash
 cd frontend
 npm i
 npm run dev
