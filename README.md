@@ -41,3 +41,19 @@ cd frontend
 npm i
 npm run dev
 ```
+
+# Exécution
+
+## Frontend
+```bash
+cd backend
+npm i
+node server.js
+```
+
+## Frontend
+```bash
+cd frontend
+npm i
+npm run dev
+```
