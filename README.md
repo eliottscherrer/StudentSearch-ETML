@@ -5,7 +5,7 @@ git clone https://github.com/eliottscherrer/StudentSearch-ETML.git
 ```
 
 ## Prérequis
-- Node JS 22.12.0 (LTS)
+- [Node JS 22.12.0 (LTS)](https://nodejs.org/en/download/package-manager)
 - MySQL 5.7.11
 
 ## Backend
